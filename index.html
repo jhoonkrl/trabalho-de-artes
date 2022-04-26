@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--------- meta tags ---------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--------- título da página ---------->
+    <title>Trabalho De Artes</title>
+
+    <!--------- font awesome cdn link ---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--------- folha de estilo ---------->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--------- favicon ---------->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!--------- seção - cabeçalho ---------->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>rabalho</a>
+
+        <nav class="navbar">
+            <a href="#home">início</a>
+            <a href="#gallery">galeria</a>
+            <a href="#review">participantes</a>
+            <a href="#contact">contato</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="procure aqui...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!--------- seção - login ---------->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+    
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Digite seu e-mail">
+            <input type="password" class="box" placeholder="Coloque sua senha">
+            <input type="submit" value="Conecte-se agora" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">lembre de mim</label>
+            <p>Esqueceu a senha? <a href="#">Clique aqui</a></p>
+            <p>Não tem e conta? <a href="#">Registrar agora</a></p>
+        </form>
+
+    </div>
+
+    <!--------- seção - inicial ---------->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>trabalho de artes</h3>
+            <p>Descrição aleatoria, pois isso quem vai decidir e vocês</p>
+            <a href="#" class="btn">Descubra mais</a>
+        </div>
+    
+        <div class="controls">
+            <span class="vid-btn active" data-src="img/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="img/vid-5.mp4"></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="img/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    
+    </section>
+
+    <!--------- link de arquivo js personalizado ---------->
+    <script src="js/script.js"></script>
+</body>
+</html>
