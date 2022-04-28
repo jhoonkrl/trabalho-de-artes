@@ -417,7 +417,7 @@ header .search-bar-container label:hover {
 }
 
 .footer .share a {
-  color: #130f40;
+  color: #333333;
   font-size: 4rem;
   margin: 1rem;
 }
@@ -430,7 +430,7 @@ header .search-bar-container label:hover {
   padding: 2rem 1rem;
   text-align: center;
   font-size: 2rem;
-  color: #130f40;
+  color: #333333;
 }
 
 .footer .credit span {
