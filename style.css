@@ -405,6 +405,38 @@ header .search-bar-container label:hover {
   width: 100%;
 }
 
+/********** seção - rodapé **********/
+.footer {
+  text-align: center;
+  padding-bottom: 8rem;
+  background: #fff;
+}
+
+.footer .share {
+  padding: 1rem 0;
+}
+
+.footer .share a {
+  color: #130f40;
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.footer .share a:hover {
+  color: var(--amarrom);
+}
+
+.footer .credit {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #130f40;
+}
+
+.footer .credit span {
+  color: var(--amarrom);
+}
+
 /********** media queries **********/
 
 @media (max-width: 1200px) {
