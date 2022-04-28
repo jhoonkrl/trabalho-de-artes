@@ -4,6 +4,9 @@
 /********** árvore do documento **********/
 :root {
   --amarrom: #bf8069;
+  --light-color: #666;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 /********** formatação css **********/
@@ -381,7 +384,7 @@ header .search-bar-container label:hover {
 
 .team .box-container .box h3 {
   font-size: 2.3rem;
-  color: var(--black);
+  color: #333333;
 }
 
 .team .box-container .box p {
